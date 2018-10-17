@@ -1,0 +1,75 @@
+{
+  "name": "sceo-front-end-main",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --open",
+    "build-dev": "vue-cli-service build --mode development",
+    "build-test": "vue-cli-service build --mode test",
+    "build-production": "vue-cli-service build --mode production",
+    "project-init": "node build/subprojects-init.js",
+    "lint": "vue-cli-service lint",
+    "build-icon": "node build/build-icon.js"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.8",
+    "mockjs": "^1.0.1-beta3",
+    "normalize.css": "^8.0.0",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/eslint-config-standard": "^3.0.4",
+    "axios": "^0.18.0",
+    "echarts": "^4.2.0-rc.1",
+    "eslint-plugin-html": "^4.0.6",
+    "font-carrier": "0.0.12",
+    "lockr": "^0.8.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "simple-git": "^1.102.0",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-i18n": "^8.1.0",
+    "vue-jsonp": "^0.1.8",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "vuedraggable": "^2.16.0",
+    "vuex": "^3.0.1",
+    "wangeditor": "^3.1.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true
+    },
+    "extends": "standard",
+    "plugins": [
+      "html"
+    ],
+    "rules": {
+      "arrow-parens": 0,
+      "generator-star-spacing": 0,
+      "no-debugger": 0,
+      "prefer-promise-reject-errors": 0,
+      "object-curly-spacing": 0
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

@@ -1,0 +1,83 @@
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@font-face {
+  font-family: 'element-icons';
+  src: url('#{$--font-path}/element-icons.woff') format('woff'), /* chrome, firefox */
+  url('#{$--font-path}/element-icons.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  font-weight: normal;
+  font-style: normal
+}
+.custom-theme-1 {
+  @import 'element-variables.scss';
+  @import 'common-variables.scss';
+}
+
+.custom-theme-2 {
+  @import 'element-variables-2.scss';
+  @import 'common-variables.scss';
+}
+
+[class^="el-icon-"]>span, [class*=" el-icon-"]>span {
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,"\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
+}
+
+
+/* button
+-------------------------- */
+.el-button {
+  //padding: 7px 10px;
+  &.is-round {
+    padding: 7px 10px;
+  }
+
+  & [class*="rx-icon-"] {
+    & + span {
+      margin-left: 5px;
+    }
+  }
+}
+
+/* date-picker
+-------------------------- */
+.el-range-editor {
+  &.el-input__inner {
+    padding: 0 7px;
+    .el-range-input {
+      height: 26px;
+      line-height: 26px;
+    }
+  }
+}
+
+/* dialog
+-------------------------- */
+.el-dialog__header {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  background-color: #D3D8E0;
+  font-weight: bold;
+}
+.el-dialog__headerbtn {
+  top: 5px;
+  right: 5px;
+  line-height: 20px;
+}
+.el-dialog__body {
+  padding: 15px 15px;
+}
+.el-dialog__footer {
+  padding: 10px 5px 5px 5px;
+}
+
+
+.el-table--border th:first-child .cell,
+.el-table--border td:first-child .cell {
+  padding-left: 0px;
+}
+
+/* tooltip
+-------------------------- */
+.el-tooltip__popper {
+  max-width: 95%;
+  word-break: break-all;
+}

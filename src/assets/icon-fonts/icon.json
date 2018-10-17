@@ -1,0 +1,526 @@
+[
+  {
+    "name": "功能图标",
+    "code": "icon-function",
+    "children": [
+      {
+        "name": "元素",
+        "code": "element"
+      },
+      {
+        "name": "公司",
+        "code": "com"
+      },
+      {
+        "name": "删除",
+        "code": "delete"
+      },
+      {
+        "name": "办公",
+        "code": "office"
+      },
+      {
+        "name": "图表",
+        "code": "chart"
+      },
+      {
+        "name": "圆点",
+        "code": "point"
+      },
+      {
+        "name": "多语言",
+        "code": "multi-language"
+      },
+      {
+        "name": "导航",
+        "code": "nav"
+      },
+      {
+        "name": "小部件",
+        "code": "widget"
+      },
+      {
+        "name": "布局",
+        "code": "layout"
+      },
+      {
+        "name": "帮助",
+        "code": "help"
+      },
+      {
+        "name": "手机",
+        "code": "mobile-phone"
+      },
+      {
+        "name": "日程",
+        "code": "schedule"
+      },
+      {
+        "name": "消息",
+        "code": "message"
+      },
+      {
+        "name": "点赞",
+        "code": "thumbs-up"
+      },
+      {
+        "name": "表情",
+        "code": "expression"
+      },
+      {
+        "name": "视频",
+        "code": "video"
+      },
+      {
+        "name": "设置",
+        "code": "set"
+      },
+      {
+        "name": "账户",
+        "code": "account"
+      },
+      {
+        "name": "资产",
+        "code": "subject"
+      },
+      {
+        "name": "退出",
+        "code": "exit"
+      },
+      {
+        "name": "通知",
+        "code": "bell"
+      },
+      {
+        "name": "通讯录",
+        "code": "contacts"
+      },
+      {
+        "name": "锁",
+        "code": "lock"
+      },
+      {
+        "name": "驾驶舱",
+        "code": "dashboard"
+      }
+    ]
+  },
+  {
+    "name": "天气图标",
+    "code": "icon-weather",
+    "children": [
+      {
+        "name": "多云",
+        "code": "cloud"
+      },
+      {
+        "name": "晴天",
+        "code": "shine"
+      },
+      {
+        "name": "阴天",
+        "code": "overcast"
+      },
+      {
+        "name": "雨",
+        "code": "rain"
+      }
+    ]
+  },
+  {
+    "name": "工作流图标",
+    "code": "icon-workflow",
+    "children": [
+      {
+        "name": "Mule任务",
+        "code": "mule-job"
+      },
+      {
+        "name": "业务规则任务",
+        "code": "rule-job"
+      },
+      {
+        "name": "中间信号抛出",
+        "code": "intermediate-singal-throw"
+      },
+      {
+        "name": "中间信号捕捉",
+        "code": "intermediate-singal-catch"
+      },
+      {
+        "name": "中间定时器捕获",
+        "code": "intermediate-timer-capture"
+      },
+      {
+        "name": "中间无抛出事件",
+        "code": "intermediate-no-thorw"
+      },
+      {
+        "name": "中间消息捕捉",
+        "code": "intermediate-message-catch"
+      },
+      {
+        "name": "事件子流程",
+        "code": "event-subflow"
+      },
+      {
+        "name": "事件网关",
+        "code": "event-gateway"
+      },
+      {
+        "name": "互斥网关",
+        "code": "exclusive-gateway"
+      },
+      {
+        "name": "人工任务",
+        "code": "artificial-job-"
+      },
+      {
+        "name": "信号开始",
+        "code": "singal-start"
+      },
+      {
+        "name": "删除节点",
+        "code": "site-remove"
+      },
+      {
+        "name": "包容性网关",
+        "code": "inclusive-gateway"
+      },
+      {
+        "name": "子流程",
+        "code": "subflow"
+      },
+      {
+        "name": "定时开始",
+        "code": "timed-started"
+      },
+      {
+        "name": "并行网关",
+        "code": "parallel-gateway"
+      },
+      {
+        "name": "开始",
+        "code": "start"
+      },
+      {
+        "name": "接收任务",
+        "code": "recive-job"
+      },
+      {
+        "name": "文本注释",
+        "code": "text-annotation"
+      },
+      {
+        "name": "服务任务",
+        "code": "service-job"
+      },
+      {
+        "name": "池",
+        "code": "pool"
+      },
+      {
+        "name": "消息开始",
+        "code": "message-start"
+      },
+      {
+        "name": "添加节点",
+        "code": "site-add"
+      },
+      {
+        "name": "用户任务",
+        "code": "user-job"
+      },
+      {
+        "name": "结束",
+        "code": "end"
+      },
+      {
+        "name": "结束取消",
+        "code": "end-cancel"
+      },
+      {
+        "name": "结束终止",
+        "code": "end-stop"
+      },
+      {
+        "name": "结束错误",
+        "code": "end-error"
+      },
+      {
+        "name": "脚本任务",
+        "code": "script-job"
+      },
+      {
+        "name": "调用活动",
+        "code": "call-action"
+      },
+      {
+        "name": "边界信号",
+        "code": "boundary-signal"
+      },
+      {
+        "name": "边界取消",
+        "code": "boundary-cancel"
+      },
+      {
+        "name": "边界定时",
+        "code": "boundary-timing"
+      },
+      {
+        "name": "边界消息",
+        "code": "boundary-message"
+      },
+      {
+        "name": "边界补偿",
+        "code": "boundary-compensation"
+      },
+      {
+        "name": "边界错误",
+        "code": "boundary-error"
+      },
+      {
+        "name": "道",
+        "code": "road"
+      },
+      {
+        "name": "邮件任务",
+        "code": "email-job"
+      },
+      {
+        "name": "错误开始",
+        "code": "error-begin"
+      },
+      {
+        "name": "骆驼",
+        "code": "camel"
+      }
+    ]
+  },
+  {
+    "name": "常规图标",
+    "code": "icon-general",
+    "children": [
+      {
+        "name": "下拉(盒)",
+        "code": "dropdown-box"
+      },
+      {
+        "name": "下拉",
+        "code": "drop-down"
+      },
+      {
+        "name": "两列",
+        "code": "two-clumns"
+      },
+      {
+        "name": "任务",
+        "code": "task"
+      },
+      {
+        "name": "保存",
+        "code": "save"
+      },
+      {
+        "name": "全屏",
+        "code": "full-screen"
+      },
+      {
+        "name": "关闭",
+        "code": "close"
+      },
+      {
+        "name": "关闭2",
+        "code": "close2"
+      },
+      {
+        "name": "分割线",
+        "code": "cutting-line"
+      },
+      {
+        "name": "刷新",
+        "code": "refresh"
+      },
+      {
+        "name": "剪切",
+        "code": "cut"
+      },
+      {
+        "name": "单行文本",
+        "code": "text-single-line"
+      },
+      {
+        "name": "单选框",
+        "code": "radio-box"
+      },
+      {
+        "name": "向下排序",
+        "code": "sort-down"
+      },
+      {
+        "name": "图片",
+        "code": "image"
+      },
+      {
+        "name": "复制",
+        "code": "copy"
+      },
+      {
+        "name": "多列",
+        "code": "three-clumns"
+      },
+      {
+        "name": "多行文本",
+        "code": "text-multiline"
+      },
+      {
+        "name": "多选",
+        "code": "checkbox"
+      },
+      {
+        "name": "富文本框",
+        "code": "rich-text-box"
+      },
+      {
+        "name": "排序",
+        "code": "sort"
+      },
+      {
+        "name": "撤销",
+        "code": "undo"
+      },
+      {
+        "name": "放大",
+        "code": "zoom-in"
+      },
+      {
+        "name": "数字框",
+        "code": "numbox"
+      },
+      {
+        "name": "文件",
+        "code": "file"
+      },
+      {
+        "name": "文本",
+        "code": "text"
+      },
+      {
+        "name": "日历",
+        "code": "calendar"
+      },
+      {
+        "name": "日期",
+        "code": "date"
+      },
+      {
+        "name": "日期范围",
+        "code": "date-interval"
+      },
+      {
+        "name": "最大化",
+        "code": "maximum"
+      },
+      {
+        "name": "查找",
+        "code": "search"
+      },
+      {
+        "name": "添加",
+        "code": "add"
+      },
+      {
+        "name": "电话",
+        "code": "phone"
+      },
+      {
+        "name": "皮肤",
+        "code": "themes"
+      },
+      {
+        "name": "禁用",
+        "code": "ban"
+      },
+      {
+        "name": "移动",
+        "code": "move"
+      },
+      {
+        "name": "窗口最大化",
+        "code": "window-maximize"
+      },
+      {
+        "name": "窗口最小化",
+        "code": "window-minimize"
+      },
+      {
+        "name": "窗口还原",
+        "code": "window-restore"
+      },
+      {
+        "name": "统计",
+        "code": "sumbox"
+      },
+      {
+        "name": "编辑",
+        "code": "edit"
+      },
+      {
+        "name": "缩小",
+        "code": "zoom-out"
+      },
+      {
+        "name": "表单",
+        "code": "form"
+      },
+      {
+        "name": "表单1",
+        "code": "form1"
+      },
+      {
+        "name": "表格",
+        "code": "table"
+      },
+      {
+        "name": "返回",
+        "code": "return"
+      },
+      {
+        "name": "还原",
+        "code": "restore"
+      },
+      {
+        "name": "还原",
+        "code": "zoom-restore"
+      },
+      {
+        "name": "选择(圆形)",
+        "code": "check-circle-o"
+      },
+      {
+        "name": "邮箱",
+        "code": "email"
+      },
+      {
+        "name": "钟表",
+        "code": "clock"
+      },
+      {
+        "name": "附件",
+        "code": "attachment"
+      },
+      {
+        "name": "面板",
+        "code": "panle"
+      },
+      {
+        "name": "预览",
+        "code": "eye"
+      },
+      {
+        "name": "首页",
+        "code": "home"
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+/* form
+-------------------------- */
+.el-form-item__label {
+  font-size: $--font-size-base; // 14px
+}
+.el-form-item {
+  &.is-success {
+    & .el-input__inner,
+    & .el-textarea__inner {
+      &, &:focus {
+        border-color: $--border-color-base; // $--color-success;
+      }
+    }
+    & .el-input-group__append,
+    & .el-input-group__prepend {
+      & .el-input__inner {
+        border-color: transparent;
+      }
+    }
+    .el-input__validateIcon {
+      color: $--color-primary; // $--color-success;
+    }
+  }
+}
+
+.el-input__inner {
+  height: $--input-height !important; // 2018-08-16 有些输入控件自己定义了行高, 导致显示不一致. 如下拉框
+}
+
+/* radio
+-------------------------- */
+.el-radio {
+  .el-radio__input.is-disabled + span.el-radio__label {
+    color: $--color-text-regular;
+  }
+}
+
+/* Table
+-------------------------- */
+.el-table {
+  font-size: $--font-size-base; // font-size: 14px;
+  th, td {
+    padding: 0;
+    height: 36px;
+  }
+  .cell {
+    padding-left: 2px;
+    padding-right: 2px;
+    .el-button + .el-button {
+      margin-left: 7px; // margin-left: 10px; 2018-08-13 表格内的多个操作按钮, 间距调小一点.
+    }
+    //.el-button {
+    //  padding: 0; // 2018-08-16 表格中的操作按钮， 类型不是图标的，也不需要padding
+    //}
+    .el-button.oper.icon {
+      padding: 0; // 2018-08-13 表格中的操作按钮， 类型为图标的，不需要padding
+    }
+  }
+}
+
+
